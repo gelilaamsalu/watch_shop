@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+body {
+     font-family: Arial, sans-serif; 
+     margin: 0; 
+     padding: 0;
+     }
+header {
+     display: flex;
+      justify-content: space-between;
+       align-items: center;
+        padding: 20px;
+     }
+header img{
+     width: 60px;
+     height: 60px;
+}
+nav a {
+     margin: 0 15px; 
+     text-decoration: none;
+      color: #333;
+       font-weight: bold; }
+.hero {
+     display: flex;
+      padding: 40px;
+       background: #f9f9f9;
+        align-items: center;
+        margin: 20px 60px;
+     }
+.hero img {
+     width: 300px;
+      margin-left: 40px;
+     }
+.hero-content {
+     max-width: 600px;
+     }
+.hero-content h1 { 
+    font-size: 40px;
+     margin-bottom: 10px;
+     }
+.hero-content p {
+     font-size: 16px;
+      color: #666; 
+    }
+.hero-content span { 
+    color: orange; 
+    font-weight: bold;
+     font-size: 20px;
+     }
+button {
+     padding: 10px 20px;
+      background: #000;
+       color: #fff;
+        border: none;
+         cursor: pointer;
+          margin-top: 10px;
+         }
+.section { 
+    padding: 40px;
+     text-align: center;
+     }
+.featured {
+     display: flex;
+      justify-content: space-around;
+       flex-wrap: wrap;
+
+}
+    .featured img{
+     width: 150px;
+     padding-bottom: 15px;
+    } 
+.card {
+     border: 1px solid #eeeeeece;
+      padding: 20px;
+       margin: 10px;
+        width: 200px;
+     }
+     
+     
+.story, .testimonial {
+     display: flex;
+      align-items: center;
+       justify-content: space-between;
+        padding: 40px;
+        gap: 100px;
+     }
+.story img, .testimonial img {
+     width: 300px;
+     margin-right: 30px;
+     
+     }
+     .story img{
+          width: 300px;
+     margin-right: 100px;
+
+     }
+.story-content, .testimonial-content {
+     max-width: 500px;
+      
+
+     }
+     .ylw{
+          background-color: green;
+          width: 100px;
+     }
+.newsletter { 
+    background: green;
+     padding: 30px; 
+     text-align: center;
+     }
+.footer {
+     background: #f1f1f1;
+      padding: 30px;
+       display: flex;
+        justify-content: space-around;
+     }
+.footer div {
+     width: 25%;
+     }
+.footer h4 {
+     margin-bottom: 10px;
+     }
+.footer a {
+     display: block;
+      color: #333;
+       text-decoration: none;
+        margin: 5px 0;
+     }
+
